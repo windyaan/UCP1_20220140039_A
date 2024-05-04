@@ -17,20 +17,6 @@
   .navbar-title {
     font-size: 24px;
   }
-  
-  .navbar-links {
-    list-style-type: none;
-  }
-  
-  .navbar-links li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  .navbar-links li a {
-    color: white;
-    text-decoration: none;
-  }
 
   .header {
     background-color: #f0f0f0;
@@ -51,14 +37,13 @@
   .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    padding: 20px;
   }
   
   .cards {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
-    padding: 20px;
+    padding: 50px;
     justify-content: center;
 }
 
@@ -101,3 +86,6 @@
     text-align: center;
   }
   
+  .input {
+    padding: 50px;
+  }
